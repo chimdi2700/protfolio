@@ -1,0 +1,440 @@
+body {
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background: #ffffff;
+}
+
+a {
+    color: #AF9483;
+    transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: #666666;
+    outline: none;
+    text-decoration: none;
+}
+
+p {
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Solway', serif;
+  
+    margin: 0 0 15px 0;
+    padding: 0;
+}
+
+
+/*About*/
+
+.about {
+    padding: 60px 0 15px 0;
+    position: relative;
+}
+
+.about .row {
+    margin-bottom: 30px;
+}
+
+.about img {
+    width: 100%;
+}
+
+.about h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.about h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.about a {
+    display: inline-block;
+    padding: 6px 20px;
+    color: #AF9483;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    border: 1px solid #AF9483;
+}
+
+.about a:hover {
+    color: #ffffff;
+    background: #AF9483;
+}
+
+.about .skills h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #666666;
+    margin-bottom: 15px;
+}
+
+.about .skill-name {
+    position: relative;
+    width: 100%;
+
+}
+
+.about .skill-name p {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.about .skill-name p:last-child {
+    float: right;
+
+}
+
+.about .progress {
+    margin-bottom: 15px;
+    border-radius: 0;
+    background: brown;
+
+}
+
+.about .progress .progress-bar {
+    background: #AF9483;
+    border-radius: 0;
+
+}
+
+/*resume*/
+
+.resume {
+    position: relative;
+    padding: 0;
+}
+
+.resume .section-header p {
+    margin:0;
+}
+
+.resume .exp-column {
+    margin-top: 30px;
+    padding: 25px 30px;
+    background: #e9ecef;
+}
+
+.resume .exp-column::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    top: 30px;
+    right: 100%;
+    left: 15px;
+    background: #AF9483;
+}
+
+.resume .exp-column::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    bottom: 0;
+    right: 15px;
+    left: 100%;
+    background: #AF9483;
+}
+
+.resume .exp-column:hover::before {
+    transition: .3s;
+    right: 15px;
+}
+
+.resume .exp-column:hover::after {
+    transition: .3s;
+    left: 15px;
+}
+
+.resume .exp-date {
+    margin-bottom: 5px;
+    color: #666666;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.resume .exp-date span {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.resume .exp-company {
+    margin-bottom: 0;
+    color: #AF9483;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.resume .exp-designation {
+    margin-bottom: 10px;
+    color: #999999;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.resume .exp-detail {
+    margin-bottom: 1;
+}
+
+
+
+
+
+
+
+/*services*/
+
+.services {
+    padding: 60px 0;
+    text-align: center;
+    background: #ffffff;
+}
+
+.services .section-header {
+    text-align: left;
+}
+
+.services .section-header p {
+    margin:0;
+}
+
+.services .single-service {
+    position: relative;
+    text-align: center;
+    font-weight: 300;
+    margin:30px 0 0;
+    padding: 25px 15px 30px 15px;
+    background: #e9ecef;
+}
+
+.services .single-service::before {
+    position: absolute;
+    content: "";
+    height: 3px;
+    top: 0;
+    right: 100%;
+    left: 0;
+    background: #AF9483;
+}
+
+.services .single-service::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    left: 100%;
+    background: #AF9483;
+}
+
+.services .single-service:hover::before {
+    transition: .3s;
+    right: 0;
+}
+
+.services .single-service:hover::after {
+    transition: .3s;
+    left: 0;
+}
+
+.services .single-service .service-icon {
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 auto 20px;
+    text-align: center;
+    width: 120px;
+    color: #AF9483;
+}
+
+.services .single-service h4,
+.services .single-service h4 a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.services .single-service p {
+    margin-bottom: 0;
+}
+
+.services .single-service span {
+    position: absolute;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+
+/*portfolio*/
+
+.portfolio {
+    position: relative;
+    clear: both;
+    padding: 60px 0 30px 0;
+}
+
+.portfolio .section-header p {
+    margin-bottom: 30px;
+}
+
+.portfolio #portfolio-flters {
+    padding: 0;
+    margin: -15px 0 30px 0;
+    list-style: none;
+    text-align: center;
+}
+
+.portfolio #portfolio-flters li {
+    cursor: pointer;
+    margin: 15px -3px 5px -3px;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #AF9483;
+    font-size: 14px;
+    line-height: 15px;
+    text-transform: uppercase;
+    border: 1px solid #AF9483;
+    background: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
+    background: #AF9483;
+    color: #ffffff;
+}
+
+.portfolio #portfolio-flters li:last-child {
+    margin-right: 0;
+}
+
+.portfolio .portfolio-item {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.portfolio .portfolio-item figure {
+    background: #AF9483;
+    overflow: hidden;
+    height: 220px;
+    position: relative;
+    border-radius: 0;
+    margin: 0; 
+}
+
+.portfolio .portfolio-item figure:hover img {
+    opacity: 0.3;
+    transition: 0.3s;
+}
+
+.portfolio .portfolio-item figure .link-preview,
+.portfolio .portfolio-item figure .link-details,
+.portfolio .portfolio-item figure .portfolio-title {
+    position: absolute;
+    display: inline-block;
+    opacity: 0;
+    line-height: 1;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    background: #ffffff;
+    transition: 0.2s linear;
+}
+
+.portfolio .portfolio-item figure .link-preview i,
+.portfolio .portfolio-item figure .link-details i {
+    padding-top: 9px;
+    font-size: 22px;
+}
+
+.portfolio .portfolio-item figure .link-preview:hover,
+.portfolio .portfolio-item figure .link-details:hover {
+    background: #AF9483;
+}
+
+.portfolio .portfolio-item figure .link-preview:hover i,
+.portfolio .portfolio-item figure .link-details:hover i {
+    color: #ffffff;
+}
+
+.portfolio .portfolio-item figure .link-preview {
+    left: 50%;
+    top: calc(25% - 18px);
+}
+
+.portfolio .portfolio-item figure .link-details {
+    right: 50%;
+    top: calc(25% - 18px);
+}
+
+.portfolio .portfolio-item figure .portfolio-title {
+    margin: 0;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    right: 0;
+    top: 100%;
+    padding: 30px 10px;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    background: rgba(256, 256, 256, .8);
+    border-radius: 0;
+}
+
+.portfolio .portfolio-item figure .portfolio-title span {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.portfolio .portfolio-item figure:hover .link-preview {
+    opacity: 1;
+    left: calc(50% - 77px);
+}
+
+.portfolio .portfolio-item figure:hover .link-details {
+    opacity: 1;
+    right: calc(50% - 77px);
+}
+
+.portfolio .portfolio-item figure:hover .portfolio-title {
+    opacity: 1;
+    top: 50%;
+}
+

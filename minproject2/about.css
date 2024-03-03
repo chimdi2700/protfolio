@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, Verdana, Sans-Serif;
+	font-size: 1em;
+	background-color: inherit;
+} 
+body{
+	background-color:lightgray;
+	
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+	border: px solid red;
+	}
+.brand {
+	width: 40%;
+	padding-top: 10px;
+	border:px solid black;
+	color:white;
+}
+span{
+	 box-shadow: 5px 5px 4px #c5b09f;
+}
+.logo {
+	width: 80px;
+	padding: 10px 5px 0 0;
+	 box-shadow: 5px 5px 4px #c5b09f;
+
+}
+.contact{
+	background: radial-gradient(circle, #0008, #0006), url('bitcoin-4207418_960_720.jpg');
+	background-size: auto;
+}
+.hero{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	margin-top:10px;
+	
+}
+h1{
+	font-size:14px;
+}
+.header { 
+	display: flex;
+	box-sizing: border-box;
+	
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: px;
+	
+	min-height:200px;
+}
+.nav{
+	min-height:px;
+	padding: 10px 5px 0 0;
+	width:40%;
+	flex-direction: left;
+	align-items:left;
+	margin-right:-10px;
+}
+
+.nav ul{
+	list-style-type:none;
+	padding:20px 10px;
+	background:;
+	display:flex;
+	column-gap:5px;
+	justify-content:center;
+}
+.nav ul li a{
+		font-size:1em;
+		color: white;
+		text-decoration:none;
+		font-size:15px;
+		padding: 10px;
+		flex-direction: left;
+		align-items:left;
+}
+.about{
+	flex-direction: column;
+	justify-content:space-around;
+	border: px solid black;
+	border:px solid red;
+	height:300px;
+}
+p{
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:20px;
+	border: px solid black;
+	padding:4px;
+}
+
+h2 {
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:20px;
+	border: px solid black;
+	padding:2px;
+}
+h1{
+	text-align:center;
+	display:;
+	justify-content:center;
+	align-items:center;
+	margin-top:px;
+	border: px solid black;
+	padding:2px;
+	flex-direction: column;
+}
+.hero, h1{
+	font-size: 80px;
+}		
+
+@media all and (min-width:600px) and (max-width:800px){
+	.nav{
+		background-color:yellow;
+	}
+}	
+@media (max-width:500px){
+	.banner{
+		background-color:orange;
+	}
+	.content{
+		flex-direction: row;
+		row-gap:10px;
+	}
+	.box{
+		width:100%;
+	}
+}	
+@media (max-width:500px){
+	.banner{
+		fone-size:30px;
+	}

@@ -1,0 +1,226 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto, Verdana, Sans-Serif;
+	font-size: 1em;
+	background-color: inherit;
+} 
+body{
+	background-color:lightgray;
+	
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	box-sizing: border-box;
+	border: px solid red;
+	}
+.brand {
+	width: 40%;
+	padding-top: 10px;
+	border:px solid black;
+	color:white;
+}
+span{
+	 box-shadow: 5px 5px 4px #c5b09f;
+}
+.logo {
+	width: 80px;
+	padding: 10px 5px 0 0;
+	 box-shadow: 5px 5px 4px #c5b09f;
+}
+.contact{
+	background: radial-gradient(circle, #0008, #0006), url('time.jpg');
+	height: 500px;
+}
+
+.header { 
+	display: flex;
+	box-sizing: border-box;
+	
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: px;
+	
+	background-size: auto;
+	min-height:200px;
+}
+.hero{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color:white;
+	margin-top:200px;
+	
+}
+.nav{
+	min-height:px;
+	padding: 10px 5px 0 0;
+	width:40%;
+	flex-direction: left;
+	align-items:left;
+	margin-right:-10px;
+}
+
+.nav ul{
+	list-style-type:none;
+	padding:20px 10px;
+	background:;
+	display:flex;
+	column-gap:5px;
+	justify-content:center;
+}
+.nav ul li a{
+		font-size:1em;
+		color: white;
+		text-decoration:none;
+		font-size:15px;
+		padding: 10px;
+		flex-direction: center;
+		align-items:left;
+}
+
+.main-content { 
+	
+	align-items: center;
+	box-sizing: border-box;
+	height: 500px;
+	background-color:white;
+	
+}
+p.form_p {
+	padding-bottom: 0px;
+	padding-top: 22px;
+}
+.form_p2 {
+	font-size: 11px;
+	padding-bottom: 25px;
+}
+.form_p2 #tc a{
+	text-decoration: none;
+	color: #FC4E7F;
+}
+
+.sub_section {
+	width:100%;
+	height: 500px;
+	margin:px;
+	box-sizing: border-box;
+	background-color:lightgray;
+	background: radial-gradient(circle, #0008, #0006), url('bitcoin-4207418_960_720.jpg');
+	padding-top:90px;
+}
+.sub_section * {
+	background-color: yellow;
+	margin-bottom:px;
+	border-radius:5%;
+	min-height:50px;
+	width:100%;
+}
+
+.form-group, .submit_btn, .form_p, .form_p2 {
+	display: block;
+	box-sizing: border-box;
+	margin: 0 auto 10px;
+	padding: 10px 0;
+	width: 50%;
+}
+.form-group {
+	background-color: #F1F1F1;
+	padding-left: 10px;
+	color: ;
+	border: 2px solid #EEEEEE;
+	font-size: 14px;
+}
+.submit_btn {
+	background-color: #FC4E7F;
+	color: #fff;
+	border: 2px solid #F1A4BB;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.bag{
+	display:flex;
+	justify-content:space-around;
+	border: px solid black;
+	border:px solid red;
+	height:350px;
+	background-color:#c5b09f;
+	background-size: ;
+}
+			
+.box{
+	width:30%;
+	background-color:lightgreen;
+	height:300px;
+	box-shadow: 5px 5px 5px red;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin-top:20px;
+	border: px solid black;
+	flex-direction:column;
+	background-color:white;
+	}
+			
+.box:hover{
+	box-shadow:none;
+	}
+
+.social{
+		background-color:#4c4e56;
+	}
+	.social-icons {
+            list-style: none;
+            padding: 0;
+        }
+        .social-icons li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        .social-icons li:last-child {
+            margin-right: 0;
+        }
+        .social-icons li a {
+            display: inline-block;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+            background-color: #c5b09f;
+            border-radius: 50%;
+            transition: background-color 0.3s ease;
+        }
+        .social-icons li a:hover {
+            background-color: #4c4e56;
+        }
+.hero, h1{
+	font-size: 80px;
+}		
+
+@media all and (min-width:600px) and (max-width:800px){
+	.nav{
+		background-color:yellow;
+	}
+}	
+@media (max-width:500px){
+	.banner{
+		background-color:orange;
+	}
+	.content{
+		flex-direction: row;
+		row-gap:10px;
+	}
+	.box{
+		width:100%;
+	}
+}	
+@media (max-width:500px){
+	.banner{
+		fone-size:30px;
+	}
